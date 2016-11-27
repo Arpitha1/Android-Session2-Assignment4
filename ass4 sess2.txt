@@ -1,0 +1,33 @@
+import java.util.Scanner;//importing scanner class
+public class assignments
+{
+	public static void main(String[] args) {
+		  int a,b,c;                        //declaring variables
+		  System.out.println("enter any 3 numbers");  
+		  Scanner sc= new Scanner(System.in);     //scanner class
+		  System.out.println("enter value for a");
+		  a=sc.nextInt();
+		  System.out.println("enter value for b");    //taking values for a b c from console input
+		  b=sc.nextInt();
+		  System.out.println("enter value for c");
+		  c=sc.nextInt();
+		  
+		  //using if statement to check highest numbers
+		  if(a>b&&a>c)
+		  System.out.println("a is highest among 3 numbers");
+		  if(b>a&&b>c)
+		  System.out.println("b is highest among 3 numbers");
+		  if(c>a&&c>b)
+		  System.out.println("c is highest among 3 numbers");
+		  
+	      	   
+		  
+		  
+		  
+
+	       
+	        
+	}
+}
+
+
